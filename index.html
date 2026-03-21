@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The IT Guy, LLC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- NAV -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">The IT Guy, LLC</h1>
+      <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+        Get a Quote
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="text-center py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4">
+        Reliable IT & Low Voltage Cabling Services
+      </h2>
+      <p class="text-lg text-gray-600 mb-6">
+        Fast, professional network installs, troubleshooting, and structured cabling for businesses.
+      </p>
+      <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700">
+        Request Service
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="bg-white py-16 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">Services</h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
+          <h4 class="font-semibold text-xl mb-2">Network Cabling</h4>
+          <p class="text-gray-600">
+            Cat5e / Cat6 structured cabling installs, clean routing, and testing.
+          </p>
+        </div>
+
+        <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
+          <h4 class="font-semibold text-xl mb-2">IT Support</h4>
+          <p class="text-gray-600">
+            Troubleshooting, system setup, and ongoing support for your business.
+          </p>
+        </div>
+
+        <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
+          <h4 class="font-semibold text-xl mb-2">Equipment Install</h4>
+          <p class="text-gray-600">
+            Switches, routers, access points, and clean rack installations.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST / SIMPLE PROOF -->
+  <section class="py-16 px-6 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">Why Choose Us</h3>
+      <p class="text-gray-600">
+        Experienced, reliable, and focused on clean, professional installs. We show up, get the job done right, and keep your systems running.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-white py-16 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">Get a Quote</h3>
+
+      <form action="https://formspree.io/f/xbdzeonw" method="POST" class="space-y-4">
+
+        <input 
+          type="text" 
+          name="name" 
+          placeholder="Your Name" 
+          required 
+          class="w-full p-3 border rounded-lg"
+        >
+
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="Your Email" 
+          required 
+          class="w-full p-3 border rounded-lg"
+        >
+
+        <textarea 
+          name="message" 
+          placeholder="What do you need help with?" 
+          required 
+          class="w-full p-3 border rounded-lg"
+        ></textarea>
+
+        <button 
+          type="submit" 
+          class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700"
+        >
+          Submit Request
+        </button>
+
+      </form>
+
+      <p class="text-sm text-gray-500 mt-4">
+        Or call/text: (Your Phone Number)
+      </p>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © 2026 The IT Guy, LLC
+  </footer>
+
+</body>
+</html>
+

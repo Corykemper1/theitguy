@@ -3,130 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The IT Guy, LLC</title>
+  <title>The IT Guy, LLC | Low Voltage & IT Services</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* subtle techy pattern for background */
+    body {
+      background-image: radial-gradient(circle at 25% 25%, rgba(0,0,0,0.02) 1px, transparent 1px),
+                        radial-gradient(circle at 75% 75%, rgba(0,0,0,0.02) 1px, transparent 1px);
+      background-size: 50px 50px;
+    }
+  </style>
 </head>
+<body class="font-sans text-gray-900">
 
-<body class="bg-gray-50 text-gray-800">
+<!-- NAV / LOGO -->
+<header class="bg-black py-4 shadow-md">
+  <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+    <div class="flex items-center">
+      <img src="mylogohere" alt="Logo" class="h-16 w-16 object-contain">
+      <span class="ml-3 text-white font-bold text-xl">The IT Guy, LLC</span>
+    </div>
+    <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-lg font-semibold">
+      Get a Quote
+    </a>
+  </div>
+</header>
 
-  <!-- NAV -->
-  <header class="bg-white shadow-sm">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold">The IT Guy, LLC</h1>
-      <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-        Get a Quote
+<!-- HERO -->
+<section class="bg-black text-white text-center py-20 px-6">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+      Reliable IT & Low Voltage Solutions for Businesses
+    </h1>
+    <p class="text-lg text-gray-300 mb-8">
+      From the demarc to the end user, we install, maintain, and support your IT infrastructure—structured cabling, networking, and remote IT services across the Midwest.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="#contact" class="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-semibold">
+        Request a Quote
+      </a>
+      <a href="tel:7852308156" class="border border-green-500 hover:bg-green-700 px-6 py-3 rounded-lg font-semibold">
+        Call / Text
       </a>
     </div>
-  </header>
+  </div>
+</section>
 
-  <!-- HERO -->
-  <section class="text-center py-20 px-6">
-    <div class="max-w-3xl mx-auto">
-      <h2 class="text-4xl font-bold mb-4">
-        Reliable IT & Low Voltage Cabling Services
-      </h2>
-      <p class="text-lg text-gray-600 mb-6">
-        Fast, professional network installs, troubleshooting, and structured cabling for businesses.
-      </p>
-      <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700">
-        Request Service
-      </a>
-    </div>
-  </section>
+<!-- SERVICES -->
+<section class="py-16 bg-white px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-12">Our Services</h2>
 
-  <!-- SERVICES -->
-  <section class="bg-white py-16 px-6">
-    <div class="max-w-6xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-10">Services</h3>
+    <div class="grid md:grid-cols-3 gap-8">
 
-      <div class="grid md:grid-cols-3 gap-8">
-
-        <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
-          <h4 class="font-semibold text-xl mb-2">Network Cabling</h4>
-          <p class="text-gray-600">
-            Cat5e / Cat6 structured cabling installs, clean routing, and testing.
-          </p>
-        </div>
-
-        <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
-          <h4 class="font-semibold text-xl mb-2">IT Support</h4>
-          <p class="text-gray-600">
-            Troubleshooting, system setup, and ongoing support for your business.
-          </p>
-        </div>
-
-        <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
-          <h4 class="font-semibold text-xl mb-2">Equipment Install</h4>
-          <p class="text-gray-600">
-            Switches, routers, access points, and clean rack installations.
-          </p>
-        </div>
-
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">Network Cabling</h3>
+        <p class="text-gray-700">
+          Cat5e / Cat6 structured cabling installs, clean routing, patch panels, and testing.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <!-- TRUST / SIMPLE PROOF -->
-  <section class="py-16 px-6 text-center">
-    <div class="max-w-3xl mx-auto">
-      <h3 class="text-2xl font-bold mb-4">Why Choose Us</h3>
-      <p class="text-gray-600">
-        Experienced, reliable, and focused on clean, professional installs. We show up, get the job done right, and keep your systems running.
-      </p>
-    </div>
-  </section>
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">IT Support</h3>
+        <p class="text-gray-700">
+          Troubleshooting, system setup, and ongoing support for your business.
+        </p>
+      </div>
 
-  <!-- CONTACT -->
-  <section id="contact" class="bg-white py-16 px-6">
-    <div class="max-w-xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-6">Get a Quote</h3>
-
-      <form action="https://formspree.io/f/xbdzeonw" method="POST" class="space-y-4">
-
-        <input 
-          type="text" 
-          name="name" 
-          placeholder="Your Name" 
-          required 
-          class="w-full p-3 border rounded-lg"
-        >
-
-        <input 
-          type="email" 
-          name="email" 
-          placeholder="Your Email" 
-          required 
-          class="w-full p-3 border rounded-lg"
-        >
-
-        <textarea 
-          name="message" 
-          placeholder="What do you need help with?" 
-          required 
-          class="w-full p-3 border rounded-lg"
-        ></textarea>
-
-        <button 
-          type="submit" 
-          class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700"
-        >
-          Submit Request
-        </button>
-
-      </form>
-
-      <p class="text-sm text-gray-500 mt-4">
-        Or call/text: (Your Phone Number)
-      </p>
+      <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+        <h3 class="text-xl font-semibold mb-3 text-green-600">Equipment Install</h3>
+        <p class="text-gray-700">
+          Switches, routers, access points, and clean rack installations.
+        </p>
+      </div>
 
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="text-center py-6 text-gray-500 text-sm">
-    © 2026 The IT Guy, LLC
-  </footer>
+<!-- TRUST / VALUE PROP -->
+<section class="py-16 px-6 bg-gray-900 text-white text-center">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">End-to-End IT Without Gaps</h2>
+    <p class="text-lg text-gray-300 leading-relaxed mb-4">
+      Most providers stop at installation or only handle support. We handle both. That means fewer vendors, faster resolution, and systems that actually work together for your business.
+    </p>
+    <p class="text-gray-400">
+      Experienced, reliable, and focused on clean, professional installs. We show up, get the job done right, and keep your systems running.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="bg-white py-16 px-6">
+  <div class="max-w-xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Get a Quote</h2>
+
+    <form action="https://formspree.io/f/xbdzeonw" method="POST" class="space-y-4">
+
+      <input 
+        type="text" 
+        name="name" 
+        placeholder="Your Name" 
+        required 
+        class="w-full p-3 border rounded-lg"
+      >
+
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Your Email" 
+        required 
+        class="w-full p-3 border rounded-lg"
+      >
+
+      <textarea 
+        name="message" 
+        placeholder="What do you need help with?" 
+        required 
+        class="w-full p-3 border rounded-lg"
+      ></textarea>
+
+      <button 
+        type="submit" 
+        class="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600"
+      >
+        Submit Request
+      </button>
+
+    </form>
+
+    <p class="text-sm text-gray-500 mt-4">
+      Or call/text: <a href="tel:7852308156" class="text-green-500 font-semibold">(785) 230-8156</a>
+    </p>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-gray-400 py-6 text-center text-sm">
+  © 2026 The IT Guy, LLC • Emporia, Kansas • Serving the Midwest
+</footer>
 
 </body>
 </html>
-

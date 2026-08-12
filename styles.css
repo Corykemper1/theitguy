@@ -119,6 +119,20 @@ a {
   border-radius: 50%;
 }
 
+@media (min-width: 761px) and (max-width: 900px) {
+  .service-bar {
+    font-size: .66rem;
+  }
+
+  .service-bar__inner {
+    gap: 12px;
+  }
+
+  .service-bar i {
+    margin-inline: 5px;
+  }
+}
+
 .site-header {
   position: sticky;
   z-index: 100;

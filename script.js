@@ -152,6 +152,12 @@ if (serviceForm && formStatus) {
 
       if (!response.ok) throw new Error("Request failed");
 
+      if (typeof gtag === "function") {
+        gtag("event", "conversion", {
+          send_to: "AW-18358813765/WWzoCIShzt8cEMWIlbJE"
+        });
+      }
+
       serviceForm.reset();
       formStatus.textContent = "Thank you. Your service request has been sent.";
     } catch {

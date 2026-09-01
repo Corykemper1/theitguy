@@ -50,7 +50,7 @@ export default function Home() {
   }
 
   function trackCall() {
-    window.gtag?.('event', 'phone_call_click', { phone_number: '+16205913188', event_category: 'lead' });
+    window.gtag?.('event', 'phone_call_click', { phone_number: '+16205913188', event_category: 'lead', page_location: window.location.href });
   }
 
   return <main>

@@ -57,7 +57,9 @@ document.querySelectorAll('.service-form').forEach((form) => {
       if (!response.ok) throw new Error('Request failed');
       if (typeof gtag === 'function') {
         gtag('event', 'conversion', {
-          send_to: 'AW-18358813765/WWzoCIShzt8cEMWIlbJE'
+          send_to: 'AW-18358813765/rluZCOzDu_kcEMWIlbJE',
+          value: 1.0,
+          currency: 'USD'
         });
       }
       form.reset();
